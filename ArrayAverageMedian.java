@@ -24,7 +24,7 @@ public class ArrayAverageMedian {
             while (true) {
                 try {
                     array[i] = Integer.parseInt(read.nextLine());
-                    if (array.length == n) break;
+                    break;
                 } catch (NumberFormatException e) {
                     System.out.println("Niepoprawne dane! " + "\n Podaj liczbę całkowitą");
                 }
