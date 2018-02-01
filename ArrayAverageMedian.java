@@ -39,6 +39,7 @@ public class ArrayAverageMedian {
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
+
         double average = sum / n;
         System.out.println("Srednia liczb w tablicy wynosi: " + average);
         //babelkowa metoda sortujaca zamiast Arrays.sort(array);
@@ -61,4 +62,3 @@ public class ArrayAverageMedian {
         System.out.println("Mediana wynosi: " + median);
     }
 }
-
